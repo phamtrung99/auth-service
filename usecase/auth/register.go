@@ -3,10 +3,11 @@ package auth
 import (
 	"context"
 
-	"github.com/phamtrung99/user-service/model"
 	"github.com/phamtrung99/auth-service/package/auth"
-	checkform "github.com/phamtrung99/movie-service/package/checkForm"
 	"github.com/phamtrung99/auth-service/util/myerror"
+	checkform "github.com/phamtrung99/movie-service/package/checkForm"
+	"github.com/phamtrung99/user-service/model"
+	usermyerror "github.com/phamtrung99/user-service/util/myerror"
 )
 
 type RegisterRequest struct {
@@ -53,7 +54,7 @@ func (u *Usecase) Register(ctx context.Context, req RegisterRequest) (*model.Use
 	result, err := u.userRepo.Create(ctx, user)
 
 	if err != nil {
-		return &model.User{}, myerror.ErrUserCreate(err)
+		return &model.User{}, usermyerror.ErrUserCreate(err)
 	}
 
 	return result, nil

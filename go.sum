@@ -165,6 +165,10 @@ github.com/opentracing/opentracing-go v1.2.0/go.mod h1:GxEUsuufX4nBwe+T+Wl9TAgYr
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=
 github.com/phamtrung99/gopkg v0.0.0-20211004070841-b3b9f1a32ca6 h1:9XIunKdlLFrYesQmzmcLKMj2y/AoRp8YDOREKqmmT8s=
 github.com/phamtrung99/gopkg v0.0.0-20211004070841-b3b9f1a32ca6/go.mod h1:DFIfS+dY/48fDpTKMg4h/faiiHqdVnQiOGKXamAb19o=
+github.com/phamtrung99/movie-service v0.0.0-20211012080705-6eec51dd8768 h1:J61Ovw7UDa8wfqq6+q5lVLOQ2qAozt92dUhQq+HLjT4=
+github.com/phamtrung99/movie-service v0.0.0-20211012080705-6eec51dd8768/go.mod h1:+yezbu0gx/HWxcB7X7lk5LoOpvneMETBxcednAIYZvg=
+github.com/phamtrung99/user-service v0.0.0-20211012081628-cf3fb9ff5847 h1:VNuVK9hqwfQKz62UIeHggoWmhSL07TPEvmDYnCmDNvM=
+github.com/phamtrung99/user-service v0.0.0-20211012081628-cf3fb9ff5847/go.mod h1:FvAW2L0lGTZbILNSkCOMpgMij/lo1pAQ3920JQwnrCI=
 github.com/philhofer/fwd v1.1.1 h1:GdGcTjf5RNAxwS4QLsiMzJYj5KEvPJD3Abr261yRQXQ=
 github.com/philhofer/fwd v1.1.1/go.mod h1:gk3iGcWd9+svBvR0sR+KPcfE+RNWozjowpeBVG3ZVNU=
 github.com/pingcap/errors v0.11.4 h1:lFuQV/oaUMGcD2tqt+01ROSmJs75VG1ToEOkZIZ4nE4=

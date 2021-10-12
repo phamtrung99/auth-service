@@ -30,6 +30,8 @@ require (
 	github.com/labstack/gommon v0.3.0 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
+	github.com/phamtrung99/movie-service v0.0.0-20211012080705-6eec51dd8768 // indirect
+	github.com/phamtrung99/user-service v0.0.0-20211012081628-cf3fb9ff5847 // indirect
 	github.com/philhofer/fwd v1.1.1 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/tinylib/msgp v1.1.6 // indirect

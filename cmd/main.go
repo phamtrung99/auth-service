@@ -8,8 +8,8 @@ import (
 	"github.com/phamtrung99/movie-service/client/mysql"
 	"github.com/phamtrung99/movie-service/config"
 	serviceHttp "github.com/phamtrung99/auth-service/delivery/http"
-	"github.com/phamtrung99/auth-service/migration"
-	"github.com/phamtrung99/auth-service/repository"
+	"github.com/phamtrung99/movie-service/migration"
+	"github.com/phamtrung99/user-service/repository"
 	"github.com/phamtrung99/auth-service/usecase"
 )
 
