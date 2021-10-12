@@ -1,5 +1,6 @@
 module github.com/phamtrung99/auth-service
 
+// +heroku goVersion go1.17
 go 1.17
 
 require (
