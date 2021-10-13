@@ -166,8 +166,6 @@ github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/9
 github.com/phamtrung99/gopkg v0.0.0-20211004070841-b3b9f1a32ca6 h1:9XIunKdlLFrYesQmzmcLKMj2y/AoRp8YDOREKqmmT8s=
 github.com/phamtrung99/gopkg v0.0.0-20211004070841-b3b9f1a32ca6/go.mod h1:DFIfS+dY/48fDpTKMg4h/faiiHqdVnQiOGKXamAb19o=
 github.com/phamtrung99/movie-service v0.0.0-20211012080705-6eec51dd8768/go.mod h1:+yezbu0gx/HWxcB7X7lk5LoOpvneMETBxcednAIYZvg=
-github.com/phamtrung99/movie-service v0.0.0-20211012100904-d0e66af7f215 h1:ELmzdkDmmipS0TMeTuuMsJWvVRuNtCrwK80tO28KCRA=
-github.com/phamtrung99/movie-service v0.0.0-20211012100904-d0e66af7f215/go.mod h1:ei0K+7Ny3O7kH0/MM+vKyXKvh1fOnMrfW01Su+cPOvI=
 github.com/phamtrung99/movie-service v0.0.0-20211013012908-1b2b119f53eb h1:2ZIEBfJ7PwNth8VziUDZyPpa/Cz3wVWDSsXas5QaE20=
 github.com/phamtrung99/movie-service v0.0.0-20211013012908-1b2b119f53eb/go.mod h1:ei0K+7Ny3O7kH0/MM+vKyXKvh1fOnMrfW01Su+cPOvI=
 github.com/phamtrung99/user-service v0.0.0-20211012081628-cf3fb9ff5847 h1:VNuVK9hqwfQKz62UIeHggoWmhSL07TPEvmDYnCmDNvM=
