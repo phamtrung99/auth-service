@@ -6,8 +6,8 @@ go 1.17
 require (
 	github.com/labstack/echo/v4 v4.6.1
 	github.com/phamtrung99/gopkg v0.0.0-20211004070841-b3b9f1a32ca6
-	github.com/phamtrung99/movie-service v0.0.0-20211013012908-1b2b119f53eb
-	github.com/phamtrung99/user-service v0.0.0-20211012081628-cf3fb9ff5847
+	github.com/phamtrung99/movie-service v0.0.0-20211013040608-a8d7c3f33b43
+	github.com/phamtrung99/user-service v0.0.0-20211012093006-75ac48880857
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 )
 
