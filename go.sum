@@ -170,6 +170,8 @@ github.com/phamtrung99/movie-service v0.0.0-20211013022928-18a345b0bd48 h1:MarSw
 github.com/phamtrung99/movie-service v0.0.0-20211013022928-18a345b0bd48/go.mod h1:ei0K+7Ny3O7kH0/MM+vKyXKvh1fOnMrfW01Su+cPOvI=
 github.com/phamtrung99/movie-service v0.0.0-20211013040608-a8d7c3f33b43 h1:RceJzLqZPfSbSA+ZOyzGLAunWD4l6qJWBTDUANY6Nqw=
 github.com/phamtrung99/movie-service v0.0.0-20211013040608-a8d7c3f33b43/go.mod h1:C6yHPwjEQDFFVtkvvKTcp81TTJnUy9KCZjMo3Umulq8=
+github.com/phamtrung99/movie-service v0.0.0-20211014062746-a0fbda3681fd h1:P+DRHVIeRqInuXaTWvZRDBnUtYFnRT+8ysUCcOz8BwI=
+github.com/phamtrung99/movie-service v0.0.0-20211014062746-a0fbda3681fd/go.mod h1:C6yHPwjEQDFFVtkvvKTcp81TTJnUy9KCZjMo3Umulq8=
 github.com/phamtrung99/user-service v0.0.0-20211012093006-75ac48880857 h1:damcWM8yYQZVITFN2TJJZwcX2FlhPndC+KS737+7Drw=
 github.com/phamtrung99/user-service v0.0.0-20211012093006-75ac48880857/go.mod h1:FvAW2L0lGTZbILNSkCOMpgMij/lo1pAQ3920JQwnrCI=
 github.com/philhofer/fwd v1.1.1 h1:GdGcTjf5RNAxwS4QLsiMzJYj5KEvPJD3Abr261yRQXQ=
