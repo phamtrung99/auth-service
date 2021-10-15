@@ -14,8 +14,14 @@ type AuthService struct {
 	AuthUsecase auth.IUsecase
 }
 
-func (auth *AuthService) Login(ctx context.Context, req *proto.LoginRequest) (*proto.LoginResponse, error) {
+func (as *AuthService) Login(ctx context.Context, req *proto.LoginRequest) (*proto.LoginResponse, error) {
+
+	token, err := as.AuthUsecase.Login(ctx, auth.LoginRequest{
+		Email:    req.Email,
+		Password: req.Password,
+	})
+
 	return &proto.LoginResponse{
-		Token: "oke token",
-	}, nil
+		Token: token,
+	}, err
 }
