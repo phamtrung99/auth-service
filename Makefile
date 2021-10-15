@@ -19,4 +19,6 @@ gci:
 # migrateup:
 # 	migrate -path migration --database "mysql://root:Teotu_19@tcp(127.0.0.1:3306)/the_movie_db?charset=utf8mb4&parseTime=True" --verbose up
 
+gen-protoc:
+	@protoc --go_out=plugins=grpc:./proto --proto_path=proto --go_opt=paths=source_relative proto/auth_service.proto
 
