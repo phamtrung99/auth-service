@@ -110,6 +110,7 @@ func executeServer(repo *repository.Repository, ucase *usecase.UseCase) {
 		log.Printf("Server is running on http://localhost:%s", cfg.Port)
 		errs <- h.Start("")
 	}()
+	
 
 
 	// grpc
