@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/labstack/echo/v4"
-	"github.com/phamtrung99/movie-service/config"
+	"github.com/phamtrung99/auth-service/config"
 	"github.com/phamtrung99/auth-service/delivery/http/v1/auth"
 	"github.com/phamtrung99/user-service/repository"
 	"github.com/phamtrung99/auth-service/usecase"

@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"github.com/phamtrung99/movie-service/config"
+	"github.com/phamtrung99/auth-service/config"
 	"github.com/phamtrung99/user-service/model"
 	"github.com/phamtrung99/auth-service/package/auth"
 	checkform "github.com/phamtrung99/movie-service/package/checkForm"
