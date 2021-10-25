@@ -10,13 +10,13 @@ import (
 	"syscall"
 	"time"
 
-	serviceGRPC "github.com/phamtrung99/auth-service/delivery/grpc"
-	serviceHttp "github.com/phamtrung99/auth-service/delivery/http"
-	"github.com/phamtrung99/auth-service/proto"
-	"github.com/phamtrung99/auth-service/usecase"
 	"github.com/phamtrung99/auth-service/client/mysql"
 	"github.com/phamtrung99/auth-service/config"
-	"github.com/phamtrung99/movie-service/migration"
+	serviceGRPC "github.com/phamtrung99/auth-service/delivery/grpc"
+	serviceHttp "github.com/phamtrung99/auth-service/delivery/http"
+	"github.com/phamtrung99/auth-service/migration"
+	"github.com/phamtrung99/auth-service/proto"
+	"github.com/phamtrung99/auth-service/usecase"
 	"github.com/phamtrung99/user-service/repository"
 	"github.com/soheilhy/cmux"
 	"github.com/swaggo/echo-swagger/example/docs"
@@ -110,8 +110,6 @@ func executeServer(repo *repository.Repository, ucase *usecase.UseCase) {
 		log.Printf("Server is running on http://localhost:%s", cfg.Port)
 		errs <- h.Start("")
 	}()
-	
-
 
 	// grpc
 	s := grpc.NewServer()

@@ -6,9 +6,9 @@ import (
 	"log"
 	"time"
 
+	"github.com/phamtrung99/auth-service/config"
 	"github.com/phamtrung99/gopkg/logger"
 	"github.com/phamtrung99/gopkg/utils"
-	"github.com/phamtrung99/auth-service/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/plugin/dbresolver"
