@@ -20,5 +20,6 @@ func VerifyPassword(password, hash string) bool {
 
 func ValidEmail(email string) bool {
 	_, err := mail.ParseAddress(email)
+
 	return err == nil
 }
