@@ -27,7 +27,7 @@ First of all, you must `go get` all packages in project by open terminal in root
 ```
 go mod tidy
 ```
-Waiting it finish and then start server by this command
+Waitting it finish and then start server by this command
 ```
 make run
 ```
